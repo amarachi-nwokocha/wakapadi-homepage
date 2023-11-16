@@ -10,7 +10,7 @@ const Booking = () => {
             <option value="">something3</option>
           </select>
         </div>
-        <div className="flex w-full ">
+        <div className="flex flex-col md:flex-row w-full ">
             <div className="flex flex-col w-full lg:max-w-[250px] my-2 p-2 ">
                 <label htmlFor="">Check in</label>
                 <input className="border rounded-md p-2 "  type="date" />
